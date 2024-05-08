@@ -18,31 +18,61 @@ body {
   color: hsl(0, 0%, 7%);
   max-width: 320px;
   padding: 1.5em;
+  font-family: "Figtree", sans-serif;
+  border-radius: 20px;
+  border: 1px black solid;
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 100%);
+  font-weight: 500;
 }
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 button {
   margin-top: 20px;
   background-color: hsl(47, 88%, 63%);
+  border: none;
+  padding: 0.4em 0.8em;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+  font-family: "Figtree", sans-serif;
 }
 
 .inside-text {
-  margin-top: 10px;
+  margin-top: 15px;
+}
+
+.publish-date {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: 800;
 }
 
 .blog-description {
   color: hsl(0, 0%, 50%);
+  font-size: 16px;
+  line-height: 150%;
 }
 
 .author {
   padding-top: 20px;
   display: flex;
+  align-items: center;
+}
+
+.author h2 {
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .author img {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
